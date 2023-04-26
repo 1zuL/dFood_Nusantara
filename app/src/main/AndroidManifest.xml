@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DFood_Nusantara">
         <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
         <activity

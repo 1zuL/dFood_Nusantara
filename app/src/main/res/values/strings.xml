@@ -1,3 +1,56 @@
 <resources>
-    <string name="app_name">d\'Food_Nusantara</string>
+    <string name="app_name">D Food Nusantara</string>
+    <string name="home_item">Beranda</string>
+    <string name="home_item2">Keranjang</string>
+    <string name="home_item3">Riwayat</string>
+    <string name="home_item4">Profil</string>
+    <string name="menu_makanan">Menu makanan</string>
+    <string name="menu_minuman">Menu minuman</string>
+    <string name="search">Pencarian</string>
+    <string name="chat">Chat</string>
+    <string name="admin">Admin</string>
+    <string name="virgoun">Virgoun</string>
+    <string name="hana">hana annisa</string>
+    <string name="chat1">Ada promo spesial nih buat kamu!</string>
+    <string name="chat2">Saya dalam perjalanan mengantar makanan</string>
+    <string name="makanan1">Soto Betawi</string>
+    <string name="makanan2">Gulai Kambing</string>
+    <string name="makanan3">Rendang Daging</string>
+    <string name="makanan4">Tahu Gejrot</string>
+    <string name="makanan5">Kerak Telor</string>
+    <string name="makanan6">Gado Gado</string>
+    <string name="minum1">Cendol</string>
+    <string name="minum2">Es Slendang Mayang</string>
+    <string name="minum3">Beras Kencur</string>
+    <string name="minum4">Es Sekoteng</string>
+    <string name="minum5">Es Doger</string>
+    <string name="minum6">STMJ</string>
+    <string name="deskripsi1">Makanan Tradisional Khas Betawi</string>
+    <string name="deskripsi2">Makanan Tradisional Khas Sumatera Barat</string>
+    <string name="deskripsi3">Makanan Tradisional Khas Sumatera Barat</string>
+    <string name="deskripsi4">Makanan Tradisional Khas Jawa Barat</string>
+    <string name="deskripsi7">Makanan Tradisional Khas Jawa </string>
+    <string name="deskripsi8">Makanan Tradisional Khas Jawa Tengah</string>
+    <string name="deskripsi9">Makanan Tradisional Khas Cirebon</string>
+    <string name="deskripsi10">Makanan Tradisional Khas Kota Malang</string>
+    <string name="deskripsi5">Makanan Tradisional Khas Betawi</string>
+    <string name="deskripsi6">Makanan Tradisional Khas Betawi</string>
+    <string name="time">Dibuat dalam 17 menit</string>
+    <string name="time2">Dibuat dalam 10 menit</string>
+    <string name="time3">Dibuat dalam 7 menit</string>
+    <string name="time4">Dibuat dalam 4 menit</string>
+    <string name="harga1">Rp 23K</string>
+    <string name="harga2">Rp 25K</string>
+    <string name="harga3">Rp 18K</string>
+    <string name="harga4">Rp 17K</string>
+    <string name="harga5">Rp 12K</string>
+
+
+
+
+
+
+
+
+
 </resources>

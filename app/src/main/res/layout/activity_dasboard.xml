@@ -1,9 +1,222 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".dasboard">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/primary"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="670dp"
+        android:background="@color/primary"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="325dp"
+        android:background="#F6F4F4"/>
+
+    <TextView
+        android:id="@+id/beranda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/home_item"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/keranjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/home_item2"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/riwayat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/home_item3"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/akun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/home_item4"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title"
+        android:textColor="@color/white"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="40dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Cari..." />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Food Nusantara"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="140dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jember"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="160dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/PROMO1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 Promos Are Available"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="335dp"
+        android:textSize="10sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/promo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRATIS ES TEH MIN PEMBELIAN RP35K"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="360dp"
+        android:textSize="8sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/PROMO3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..............................................................."
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="370dp"
+        android:textSize="8sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makanan"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="400dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/minuman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minuman"
+        android:layout_marginLeft="270dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="400dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/lihatsemua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="605dp"
+        android:layout_marginRight="16dp"
+        android:text="Lihat Semua"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/lihatsemua2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lihat Semua"
+        android:layout_marginLeft="255dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="605dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="173dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/pecel" />
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="174dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/dawet"/>
+
+    <ImageView
+        android:id="@+id/imageButton3"
+        android:layout_width="197dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="50dp"
+        app:srcCompat="@drawable/minum" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/makanan"/>
+
+</RelativeLayout>

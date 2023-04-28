@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dasboard">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/primary"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:textColor="@color/white"
+        android:text="@string/chat"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+        android:background="#F6F4F4"/>
+
+    <ImageView
+        android:id="@+id/foto1"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="77dp"
+        app:srcCompat="@drawable/gadogado" />
+
+    <TextView
+        android:id="@+id/nama1"
+        android:textColor="@color/black"
+        android:text="@string/admin"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="76dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/penjelasan1"
+        android:textColor="@color/black"
+        android:text="@string/chat1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="99dp"
+        android:textSize="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="140dp"
+        android:background="#F6F4F4"/>
+
+    <ImageView
+        android:id="@+id/foto2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="147dp"
+        app:srcCompat="@drawable/gadogado" />
+
+    <TextView
+        android:id="@+id/nama2"
+        android:textColor="@color/black"
+        android:text="@string/hana"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="146dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/penjelasan2"
+        android:textColor="@color/black"
+        android:text="@string/chat2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="169dp"
+        android:textSize="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="210dp"
+        android:background="#F6F4F4"/>
+
+    <ImageView
+        android:id="@+id/foto3"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="217dp"
+        app:srcCompat="@drawable/gadogado" />
+
+    <TextView
+        android:id="@+id/nama3"
+        android:textColor="@color/black"
+        android:text="@string/virgoun"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="216dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/penjelasan3"
+        android:textColor="@color/black"
+        android:text="@string/chat2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="239dp"
+        android:textSize="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="280dp"
+        android:background="#F6F4F4"/>
+    <ImageView
+        android:id="@+id/foto4"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="287dp"
+        app:srcCompat="@drawable/gadogado" />
+
+    <TextView
+        android:id="@+id/nama4"
+        android:textColor="@color/black"
+        android:text="@string/virgoun"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="286dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/penjelasan4"
+        android:textColor="@color/black"
+        android:text="@string/chat2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="309dp"
+        android:textSize="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="350dp"
+        android:background="#F6F4F4"/>
+    <ImageView
+        android:id="@+id/foto5"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="357dp"
+        app:srcCompat="@drawable/gadogado" />
+    <TextView
+        android:id="@+id/nama5"
+        android:textColor="@color/black"
+        android:text="@string/virgoun"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="356dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/penjelasan5"
+        android:textColor="@color/black"
+        android:text="@string/chat2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="379dp"
+        android:textSize="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

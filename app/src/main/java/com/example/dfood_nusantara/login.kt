@@ -16,6 +16,10 @@ class login : AppCompatActivity() {
             val intent = Intent(this, register::class.java)
             startActivity(intent)
         }
-
+        val login = findViewById<TextView>(R.id.buttonlogin)
+        login.setOnClickListener {
+            val intent = Intent(this, dasboard::class.java)
+            startActivity(intent)
+        }
     }
 }

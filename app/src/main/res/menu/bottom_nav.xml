@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Beranda"
+        android:id="@+id/beranda"
+        android:icon="@drawable/home"/>
+    <item android:title="Keranjang"
+        android:id="@+id/keranjang"
+        android:icon="@drawable/keranjang"/>
+    <item android:title="Riwayat"
+        android:id="@+id/riwayat"
+        android:icon="@drawable/riwayat"/>
+    <item android:title="Akun"
+        android:id="@+id/akun"
+        android:icon="@drawable/profil"/>
+</menu>

@@ -73,6 +73,7 @@
     <Button
         android:id="@+id/buttonlogin"
         android:background="@drawable/button"
+        android:backgroundTint="@color/primary"
         android:text="Masuk"
         android:textColor="@color/black"
         android:layout_width="175dp"

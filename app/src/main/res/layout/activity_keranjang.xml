@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".keranjang">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/primary"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:textColor="@color/white"
+        android:text="@string/home_item2"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="70dp"
+        android:background="#F6F4F4"/>
+
+    <TextView
+        android:id="@+id/title1"
+        android:textColor="@color/black"
+        android:text="@string/makanan1"
+        android:textStyle="bold"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="85dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/fitursilang3"
+        android:textColor="@color/black"
+        android:text="@string/silang"
+        android:layout_marginLeft="380dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="75dp"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/harga1"
+        android:textColor="@color/black"
+        android:text="@string/harga6"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="114dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageButton1"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginRight="70dp"
+        app:srcCompat="@drawable/sotobetawi" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="179dp"
+        android:background="#F6F4F4"/>
+
+    <TextView
+        android:id="@+id/title3"
+        android:textColor="@color/black"
+        android:text="@string/makanan4"
+        android:textStyle="bold"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="195dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/fitursilang2"
+        android:textColor="@color/black"
+        android:text="@string/silang"
+        android:layout_marginLeft="380dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="185dp"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/harga2"
+        android:textColor="@color/black"
+        android:text="@string/harga0"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="224dp"
+        android:textSize="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageButton2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginRight="70dp"
+        app:srcCompat="@drawable/tahugejrot" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="290dp"
+        android:background="#F6F4F4"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="420dp"
+        android:background="#F6F4F4"/>
+
+    <Button
+        android:id="@+id/pesan"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="290dp"
+        android:text="pesan"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="@color/primary"/>
+
+    <TextView
+        android:id="@+id/mau"
+        android:textColor="@color/black"
+        android:text="Mau pesan?"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="450dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/title4"
+        android:textColor="@color/black"
+        android:text="@string/makanan5"
+        android:textStyle="bold"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="305dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/fitursilang"
+        android:textColor="@color/black"
+        android:text="@string/silang"
+        android:layout_marginLeft="380dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="295dp"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/harga3"
+        android:textColor="@color/black"
+        android:text="@string/harga7"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="332dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageButton3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="291dp"
+        android:layout_marginRight="70dp"
+        app:srcCompat="@drawable/keraktelor" />
+
+
+    <View
+    android:id="@+id/bottomNavigationView"
+    android:layout_width="wrap_content"
+    android:layout_height="70dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/navbar"
+    />
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/home"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        />
+    <ImageButton
+        android:id="@+id/keranjang"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/keranjang"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="5dp"
+        />
+    <ImageButton
+        android:id="@+id/riwayat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/riwayat"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="215dp"
+        android:layout_marginBottom="5dp"
+        />
+    <ImageButton
+        android:id="@+id/profil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/profil"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="320dp"
+        android:layout_marginBottom="5dp"
+        />
+</RelativeLayout>

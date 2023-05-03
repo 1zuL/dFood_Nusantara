@@ -21,5 +21,10 @@ class login : AppCompatActivity() {
             val intent = Intent(this, dasboard::class.java)
             startActivity(intent)
         }
+        val lp = findViewById<TextView>(R.id.lp)
+        lp.setOnClickListener {
+            val intent = Intent(this, lupapassword::class.java)
+            startActivity(intent)
+        }
     }
 }

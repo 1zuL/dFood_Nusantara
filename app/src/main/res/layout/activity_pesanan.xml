@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pesanan">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F6F4F4"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:textColor="@color/black"
+        android:text="@string/home_item5"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="290dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:textColor="@color/black"
+        android:text="Informasi Pesanan"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="67dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="100dp"
+        android:background="#F6F4F4"/>
+
+    <TextView
+        android:id="@+id/alamat"
+        android:textColor="#937200"
+        android:text="Alamat"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="306dp"
+        android:layout_marginTop="120dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/catatan"
+        android:textColor="#937200"
+        android:text="Catatan"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="306dp"
+        android:layout_marginTop="190dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/daftar"
+        android:textColor="@color/black"
+        android:text="Daftar Pesanan"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="230dp"
+        android:layout_marginTop="272.5dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_marginTop="310dp"
+        android:background="#F6F4F4"/>
+
+    <TextView
+        android:id="@+id/title1"
+        android:textColor="@color/black"
+        android:text="@string/makanan1"
+        android:textStyle="bold"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="325dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/harga1"
+        android:textColor="@color/black"
+        android:text="@string/harga6"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="355dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageButton1"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginRight="70dp"
+        app:srcCompat="@drawable/sotobetawi" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_marginTop="435dp"
+        android:background="#F6F4F4"/>
+
+    <TextView
+        android:id="@+id/title3"
+        android:textColor="@color/black"
+        android:text="@string/makanan4"
+        android:textStyle="bold"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="450dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/harga2"
+        android:textColor="@color/black"
+        android:text="@string/harga8"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="480dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageButton2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="439.5dp"
+        android:layout_marginRight="70dp"
+        app:srcCompat="@drawable/tahugejrot" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginTop="645dp"
+        android:background="#F6F4F4"/>
+    <Button
+        android:id="@+id/bayar"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:text="bayar"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="645dp"
+        android:backgroundTint="@color/primary"
+        />
+    <TextView
+        android:id="@+id/total"
+        android:textColor="#937200"
+        android:text="Total Pesanan"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="256dp"
+        android:layout_marginTop="660dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:textColor="@color/black"
+        android:text="Rp 33.000"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="256dp"
+        android:layout_marginTop="685dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

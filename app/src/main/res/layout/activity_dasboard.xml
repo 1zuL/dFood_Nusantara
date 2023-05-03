@@ -92,24 +92,21 @@
         android:layout_marginRight="16dp"
         android:background="@drawable/dawet1"/>
 
-    <ImageView
-        android:id="@+id/imageButton3"
-        android:layout_width="197dp"
-        android:layout_height="120dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="210dp"
-        android:layout_marginRight="50dp"
-        app:srcCompat="@drawable/minum" />
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        android:layout_marginTop="180dp"
+        app:strokeWidth="1dp"/>
 
-    <ImageView
-        android:layout_width="500dp"
-        android:layout_height="120dp"
-        android:layout_marginLeft="225dp"
-        android:layout_marginTop="210dp"
-        android:layout_marginRight="40dp"
-        android:background="@drawable/makanan"/>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+    <View
         android:id="@+id/bottomNavigationView"
         android:layout_width="wrap_content"
         android:layout_height="70dp"
@@ -117,7 +114,43 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/bottom_nav"
         android:background="@drawable/navbar"
         />
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/home"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        />
+    <ImageButton
+        android:id="@+id/keranjang"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/keranjang"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="5dp"
+        />
+    <ImageButton
+        android:id="@+id/riwayat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/riwayat"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="215dp"
+        android:layout_marginBottom="5dp"
+        />
+    <ImageButton
+        android:id="@+id/profil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/profil"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="320dp"
+        android:layout_marginBottom="5dp"
+        />
+
 </RelativeLayout>

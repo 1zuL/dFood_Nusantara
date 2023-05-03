@@ -13,6 +13,7 @@ class dasboard : AppCompatActivity() {
         setContentView(R.layout.activity_dasboard)
         supportActionBar?.hide()
 
+
         val btnmakanan = findViewById<ImageView>(R.id.makanan)
         btnmakanan.setOnClickListener {
             val intent = Intent(this, makanan::class.java)
@@ -31,7 +32,22 @@ class dasboard : AppCompatActivity() {
         }
         val btnsrc = findViewById<ImageView>(R.id.searchView)
         btnsrc.setOnClickListener {
-            val intent = Intent(this, pencarian::class.java)
+            val intent = Intent(this, cari::class.java)
+            startActivity(intent)
+        }
+        val btnkeranjang = findViewById<ImageView>(R.id.keranjang)
+        btnkeranjang.setOnClickListener {
+            val intent = Intent(this, keranjang::class.java)
+            startActivity(intent)
+        }
+        val btnriwayat = findViewById<ImageView>(R.id.riwayat)
+        btnriwayat.setOnClickListener {
+            val intent = Intent(this, riwayat::class.java)
+            startActivity(intent)
+        }
+        val btnprofil = findViewById<ImageView>(R.id.profil)
+        btnprofil.setOnClickListener {
+            val intent = Intent(this, profil::class.java)
             startActivity(intent)
         }
     }

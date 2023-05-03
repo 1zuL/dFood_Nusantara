@@ -4,6 +4,9 @@
     <string name="home_item2">Keranjang</string>
     <string name="home_item3">Riwayat</string>
     <string name="home_item4">Profil</string>
+    <string name="home_item5">Pesanan</string>
+    <string name="home_item6">Pembayaran</string>
+    <string name="home_item7">Faktur Pesanan</string>
     <string name="menu_makanan">Menu makanan</string>
     <string name="menu_minuman">Menu minuman</string>
     <string name="search">Pencarian</string>
@@ -19,6 +22,7 @@
     <string name="makanan4">Tahu Gejrot</string>
     <string name="makanan5">Kerak Telor</string>
     <string name="makanan6">Gado Gado</string>
+    <string name="makanan7">Pecel</string>
     <string name="minum1">Cendol</string>
     <string name="minum2">Es Slendang Mayang</string>
     <string name="minum3">Beras Kencur</string>
@@ -39,11 +43,18 @@
     <string name="time2">Dibuat dalam 10 menit</string>
     <string name="time3">Dibuat dalam 7 menit</string>
     <string name="time4">Dibuat dalam 4 menit</string>
+    <string name="harga0">Rp 10K</string>
+    <string name="harga01">Rp 8K</string>
+    <string name="harga02">Rp 6K</string>
     <string name="harga1">Rp 23K</string>
     <string name="harga2">Rp 25K</string>
     <string name="harga3">Rp 18K</string>
     <string name="harga4">Rp 17K</string>
     <string name="harga5">Rp 12K</string>
+    <string name="harga6">Rp 23.000</string>
+    <string name="harga7">Rp 25.000</string>
+    <string name="harga8">Rp 10.000</string>
+    <string name="silang">X</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

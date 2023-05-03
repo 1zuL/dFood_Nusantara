@@ -34,7 +34,22 @@
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/imageButton3"
+        android:layout_width="197dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="50dp"
+        app:srcCompat="@drawable/minum" />
 
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/makanan"/>
     <ImageView
         android:id="@+id/searchView"
         android:background="@drawable/search"
@@ -68,11 +83,12 @@
         android:textColor="@color/black"/>
 
     <ImageView
-        android:layout_width="350dp"
-        android:layout_height="115dp"
+        android:id="@+id/promo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="350dp"
-        android:background="@drawable/diskon" />
+        android:background="@drawable/prm" />
 
 
     <ImageView
@@ -118,39 +134,39 @@
         />
     <ImageButton
         android:id="@+id/home"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/home"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="15dp"
         />
     <ImageButton
         android:id="@+id/keranjang"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/keranjang"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="110dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="12dp"
         />
     <ImageButton
         android:id="@+id/riwayat"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:background="@drawable/riwayat"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="215dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="10dp"
         />
     <ImageButton
         android:id="@+id/profil"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/profil"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="320dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="15dp"
         />
 
 </RelativeLayout>

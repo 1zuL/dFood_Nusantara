@@ -23,6 +23,14 @@
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/centang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        />
     <TextView
         android:id="@+id/makasih1"
         android:layout_width="match_parent"

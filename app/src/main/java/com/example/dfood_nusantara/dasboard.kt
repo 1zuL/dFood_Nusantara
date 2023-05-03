@@ -50,5 +50,10 @@ class dasboard : AppCompatActivity() {
             val intent = Intent(this, profil::class.java)
             startActivity(intent)
         }
+        val btnpromo = findViewById<ImageView>(R.id.promo)
+        btnpromo.setOnClickListener {
+            val intent = Intent(this, promo::class.java)
+            startActivity(intent)
+        }
     }
 }

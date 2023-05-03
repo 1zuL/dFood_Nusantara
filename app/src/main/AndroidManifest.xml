@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DFood_Nusantara">
         <activity
+            android:name=".promo"
+            android:exported="false" />
+        <activity
+            android:name=".tentang"
+            android:exported="false" />
+        <activity
+            android:name=".bantuan"
+            android:exported="false" />
+        <activity
+            android:name=".pengaturan"
+            android:exported="false" />
+        <activity
+            android:name=".informasi_pribadi"
+            android:exported="false" />
+        <activity
+            android:name=".detail_riwayat"
+            android:exported="false" />
+        <activity
+            android:name=".detail_makanan"
+            android:exported="false" />
+        <activity
             android:name=".riwayat"
             android:exported="false" />
         <activity

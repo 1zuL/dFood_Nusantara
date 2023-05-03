@@ -7,6 +7,122 @@
     tools:context=".riwayat">
 
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/primary"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:textColor="@color/white"
+        android:text="Riwayat Pesanan"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/ktk"
+        android:layout_width="380dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/bt2"
+        />
+    <TextView
+        android:text="Januari"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:text="3 item"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:id="@+id/menu"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/p12"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:text="3 item"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="165dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:text="16 Januari 2023"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:src="@drawable/panah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="175dp"
+        android:layout_marginRight="35dp"
+        />
+    <View
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/p12"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:text="3 item"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:text="16 Januari 2023"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:src="@drawable/panah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="245dp"
+        android:layout_marginRight="35dp"
+        />
 
     <View
         android:id="@+id/bottomNavigationView"
@@ -18,40 +134,41 @@
         android:layout_alignParentBottom="true"
         android:background="@drawable/navbar"
         />
+
     <ImageButton
         android:id="@+id/home"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/home"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="15dp"
         />
     <ImageButton
         android:id="@+id/keranjang"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/keranjang"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="110dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="12dp"
         />
     <ImageButton
         android:id="@+id/riwayat"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:background="@drawable/riwayat"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="215dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="10dp"
         />
     <ImageButton
         android:id="@+id/profil"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/profil"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="320dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="15dp"
         />
 </RelativeLayout>

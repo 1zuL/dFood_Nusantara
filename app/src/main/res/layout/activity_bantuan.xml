@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".bantuan">
+
+    <View
+        android:id="@+id/atasan"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/atasan"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:textColor="@color/white"
+        android:text="Bantuan"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/atasan"
+        app:layout_constraintBottom_toBottomOf="@+id/atasan"
+        app:layout_constraintTop_toTopOf="@+id/atasan"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/bg"
+        android:layout_width="327dp"
+        android:layout_height="327dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/bgg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/atasan" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="11dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Cari Bantuan"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/bg"
+        app:layout_constraintStart_toStartOf="@+id/bg"
+        app:layout_constraintTop_toTopOf="@+id/bg" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="298dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/atasan"
+        app:cornerRadius="10dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="@+id/bg"
+        app:layout_constraintRight_toRightOf="@+id/bg"
+        android:text="Panduan Aplikasi"
+        android:textAlignment="viewStart"
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="298dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/atasan"
+        app:cornerRadius="10dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="@+id/bg"
+        app:layout_constraintRight_toRightOf="@+id/bg"
+        android:text="Panduan Aplikasi"
+        android:textAlignment="viewStart"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+    <TextView
+        android:id="@+id/hub"
+        android:text="HUBUNGI KAMI"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="45dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn2"
+        app:layout_constraintRight_toRightOf="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:text="dfoodnusantara@gmail.com"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/hub"
+        app:layout_constraintRight_toRightOf="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

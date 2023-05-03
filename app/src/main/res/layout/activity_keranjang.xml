@@ -54,6 +54,14 @@
         android:textSize="17sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <ImageView
+        android:background="@drawable/ctg"
+        android:layout_marginTop="115dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 
     <TextView
         android:id="@+id/harga1"
@@ -106,6 +114,14 @@
         android:textSize="17sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <ImageView
+        android:background="@drawable/ctg"
+        android:layout_marginTop="225dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 
     <TextView
         android:id="@+id/harga2"
@@ -185,6 +201,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <ImageView
+        android:background="@drawable/ctg1"
+        android:layout_marginTop="335dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
     <TextView
         android:id="@+id/harga3"
         android:textColor="@color/black"
@@ -219,38 +244,38 @@
     />
     <ImageButton
         android:id="@+id/home"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/home"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="15dp"
         />
     <ImageButton
         android:id="@+id/keranjang"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/keranjang"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="110dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="12dp"
         />
     <ImageButton
         android:id="@+id/riwayat"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:background="@drawable/riwayat"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="215dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="10dp"
         />
     <ImageButton
         android:id="@+id/profil"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/profil"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="320dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="15dp"
         />
 </RelativeLayout>

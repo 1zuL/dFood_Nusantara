@@ -5,11 +5,202 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".profil">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/primary"
+        />
 
+    <TextView
+        android:id="@+id/title"
+        android:textColor="@color/white"
+        android:text="Akun"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:src="@drawable/pp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="479dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/hiasan" />
 
+    <TextView
+        android:text="Tanboy Kun"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="275dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:text="tanboykun@gmail.com"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:textSize="15dp"
 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 
+    <View
+        android:id="@+id/info"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="350dp"
+        android:background="@color/abu"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:text="Infromasi Pribadi"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="363dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:src="@drawable/panah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="350dp"
+        />
+    <ImageView
+        android:src="@drawable/org"
+        android:layout_marginTop="363dp"
+        android:layout_marginLeft="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <View
+        android:id="@+id/pengaturan"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="415dp"
+        android:background="@color/abu"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:text="Pengaturan"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="428dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:src="@drawable/panah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="350dp"
+        />
+    <ImageView
+        android:src="@drawable/gir"
+        android:layout_marginTop="428dp"
+        android:layout_marginLeft="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:id="@+id/bantuan"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="480dp"
+        android:background="@color/abu"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:text="Bantuan"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="493dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:src="@drawable/panah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="495dp"
+        android:layout_marginLeft="350dp"
+        />
+    <ImageView
+        android:src="@drawable/gembok"
+        android:layout_marginTop="493dp"
+        android:layout_marginLeft="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:id="@+id/tentang"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="545dp"
+        android:background="@color/abu"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:text="Tentang"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="558dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:src="@drawable/panah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="350dp"
+        />
+    <ImageView
+        android:src="@drawable/tentang"
+        android:layout_marginTop="558dp"
+        android:layout_marginLeft="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/btnkeluar"
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="@color/abu"
+        android:layout_centerHorizontal="true"
+        android:text="keluar"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
     <View
         android:id="@+id/bottomNavigationView"
         android:layout_width="wrap_content"
@@ -22,38 +213,38 @@
         />
     <ImageButton
         android:id="@+id/home"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/home"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="15dp"
         />
     <ImageButton
         android:id="@+id/keranjang"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/keranjang"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="110dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="12dp"
         />
     <ImageButton
         android:id="@+id/riwayat"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:background="@drawable/riwayat"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="215dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="10dp"
         />
     <ImageButton
         android:id="@+id/profil"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/profil"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="320dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="15dp"
         />
 </RelativeLayout>
